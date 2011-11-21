@@ -3,10 +3,10 @@ package com.example.singleton;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class JavaSingeltonTest {
+public class JavaSingletonTest {
 
 	@Test
 	public void testInstanceAreEquals() throws Exception {
-		Assert.assertTrue(JavaSingelton.getInstance() == JavaSingelton.getInstance());
+		Assert.assertTrue(JavaSingleton.getInstance() == JavaSingleton.getInstance());
 	}
 }

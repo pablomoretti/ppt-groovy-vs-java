@@ -1,6 +1,6 @@
 package com.example.singleton
 
 @Singleton
-class GroovySingelton {
+class GroovySingleton {
 
 }

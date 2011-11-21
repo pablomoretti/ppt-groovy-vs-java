@@ -8,11 +8,11 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-class GroovySingeltonTest {
+class GroovySingletonTest {
 
 	@Test
 	public void testInstanceAreEquals() throws Exception {
-		assertTrue(GroovySingelton.getInstance().is(GroovySingelton.getInstance()))
+		assertTrue(GroovySingleton.getInstance().is(GroovySingleton.getInstance()))
 	}
 
 }
